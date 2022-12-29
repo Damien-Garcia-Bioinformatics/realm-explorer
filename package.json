@@ -1,0 +1,29 @@
+{
+  "name": "realm-explorer",
+  "version": "1.0.0",
+  "description": "Realm-Explorer is a tool used by Tabletop RPG Dungeon Master to store and access data about campaigns.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Damien-Garcia-Bioinformatics/realm-explorer.git"
+  },
+  "keywords": [
+    "Tabletop",
+    "RPG",
+    "Dungeon",
+    "Master",
+    "Tool"
+  ],
+  "author": "Damien GARCIA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Damien-Garcia-Bioinformatics/realm-explorer/issues"
+  },
+  "homepage": "https://github.com/Damien-Garcia-Bioinformatics/realm-explorer#readme",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  }
+}
