@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <!-- HEAD -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Realm Explorer</title>
+        <link rel="stylesheet" href="../css/main.css"/>
+    </head>
+
+    <!-- BODY -->
+    <body style="padding-left : 5% ; padding-right : 5% ;">
+        <button class="simple-button">
+            <a href="index.html">Back</a>
+        </button>
+        <h1 style="text-align:center">Realm Selection</h1>
+        <script>
+            // Get all files/directories from path
+            const path = require('path') ;
+            const fs = require('fs') ;
+            const directoryPath = path.join(__dirname, '../../data/') ;
+            fs.readdir(directoryPath, function(err, files) {
+                //Handling error
+                if (err) {
+                    return console.log('Unable to scan directory : ' + err) ;
+                }
+                // Listing all files using forEach
+                files.forEach(function (file) {
+                    console.log(file) ; 
+                })
+            })
+        </script>
+    </body>
+</html>

@@ -7,7 +7,7 @@
     "start": "electron .",
     "sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css",
     "sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Damien-Garcia-Bioinformatics/realm-explorer.git"
@@ -29,6 +29,7 @@
     "electron": "^22.0.0"
   },
   "dependencies": {
+    "better-sqlite3-with-prebuilds": "^7.4.3",
     "sass": "^1.57.1"
   }
 }
